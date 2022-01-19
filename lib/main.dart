@@ -91,7 +91,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 _dropDown(),
                 outputFileName.isNotEmpty
-                    ? Text('Ouput File Name: $outputFileName')
+                    ? Text('Ouput File Name: $outputFileName.json')
                     : const SizedBox.shrink(),
                 const SizedBox(height: 24),
                 loading
