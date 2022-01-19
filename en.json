@@ -1,0 +1,171 @@
+{
+  "setting_screen": {
+    "title": "Setting",
+    "notification": "Notification",
+    "language": "Language",
+    "rating": "Rating",
+    "share_app": "Share App",
+    "privacy": "Privacy Policy",
+    "change_password": "Change Password",
+    "logout": "Logout"
+  },
+
+  "drawer": {
+    "connect_wallet": "CONNECT WALLET",
+    "compatible_zodiac": "Compatible 12 Zodiacs",
+    "conquer_zodiac": "Conquer 12 Zodiacs",
+    "personality_zodiac": "Personality of 12 Zodiacs",
+    "daily_tarot": "Daily Tarot Cards",
+    "monthly_zodiac": "Monthly Zodiac",
+    "daily_zodiac": "Daily Zodiac",
+    "horoscope": "Horoscope"
+  },
+
+  "home_connect_wallet": {
+    "reminder": "Please connect your wallet and choose your zodiac animal to read horoscope"
+  },
+
+  "connect_wallet_screen": {
+    "title": "Connect Wallet",
+    "edit_text_guide": "Paste your ETH public address below",
+    "edit_text_hint": "Your public adddress",
+    "button_connect": "Connect",
+    "or": "Or",
+    "scan_guide": "Scan your wallet QR code"
+  },
+
+  "qr_scan_screen": {
+    "title": "Scan Wallet",
+    "platform": "Platform",
+    "address": "Public Address",
+    "confirm": "Confirm",
+    "invalid": "Invalid eth public address, try another please!"
+  },
+
+  "rating_popup": {
+    "title": "Enjoy 12 Guardians?",
+    "guide": "Tap a star to give your rating",
+    "cancel": "Cancel",
+    "submit": "Submit"
+  },
+
+  "daily_tarot_screen": {
+    "title": "Daily Tarot Cards",
+    "career": "Career",
+    "love": "Love",
+    "finance": "Finance",
+    "placeholder_1": "Before drawing a card, you need to calm down and ask yourself what do you want about today",
+    "placeholder_2": "The Ox is the second of all zodiac animals. According to one myth, the Jade Emperor said the order would be decided by the order in which they arrived to his party. The Ox was about to be the first to arrive, but Rat tricked Ox into giving him a ride. Then, just as they arrived, Rat jumped down and landed ahead of Ox. Thus, Ox became the second animal.\n\"Having an exceptional insight for detailed work, you prefer to keep your own counsel, listen to your intuition and rarely acts on unsolicited advice. You have a remarkable ability to heal from psychological as well as physical wounds. "
+  },
+
+  "choose_animal_screen": {
+    "opensea_button": "Go to Opensea",
+    "no_card": "You don't have any card right now",
+    "choose_your": "Choose your",
+    "zodiac": "Zodiac animal"
+  },
+
+
+
+  "welcome": {
+    "create_account": "Create Account",
+    "login": "Login"
+  },
+  "register": {
+    "register": "Register",
+    "name": "Name",
+    "date_of_birth": "Date of birth",
+    "email": "Email",
+    "password": "Password",
+    "confirm_password": "Confirm password",
+    "already_have_account": "Already have account?",
+    "notification": "-----------------------------------------------------------------------------",
+    "Name can't be empty":"Name can't be empty",
+    "User name must only be 2 - 20 in length": "User name must only be 2 - 20 in length",
+    "Date can't be empty": "Date can't be empty",
+    "Date of birth is not validate": "Date of birth is not validate",
+    "Email can't be empty": "Email can't be empty",
+    "Please enter a valid email address": "Please enter a valid email address",
+    "Password must be 6 characters long and include letters and numbers": "Password must be 6 characters long and include letters and numbers",
+    "The re-entered password must match the password above": "The re-entered password must match the password above",
+    "Please fill in all fields": "Please fill in all fields"
+  },
+  "login": {
+    "login": "Login",
+    "email":"Email",
+    "password":"Password",
+    "remember_me":"Remember me",
+    "forgot_password":"Forgot Password",
+    "don_t_have_account" : "Don't have account?",
+    "register": "Register",
+    "or_login_with": "Or login with",
+    "notification": "-----------------------------------------------------------------------------",
+    "Email can't be empty": "Email can't be empty",
+    "Please enter a valid email address": "Please enter a valid email address",
+    "Password can't be empty": "Password can't be empty",
+    "Password must be at-least 6 characters long": "Password must be at-least 6 characters long",
+    "Please enter a valid email and password": "Please enter a valid email and password",
+    "An error occurred": "An error occurred"
+  },
+  "forgot_password": {
+    "recovery_password": "Recovery Password",
+    "forgot password step 1": "-------------------------------------------------------------------",
+    "we_will_send_an_email": "We will send an email to your email \nwith instructions for further recovery",
+    "your_email": "Your email",
+    "next": "Next",
+    "step_1_of_3":"Step 1 of 3",
+    "if_you_do_not":"If you do not see an email with a code in your email, \ncheck your SPAM folder",
+    "forgot password step 2": "-------------------------------------------------------------------",
+    "an_email_with": "An email with a 6-digit code was sent to your mailing \naddress",
+    "step_2_of_3":"Step 2 of 3",
+    "if_you_do_not_2":"If you do not see an email with a code in your email,",
+    "check_your_spam": "check your SPAM folder or",
+    "send_email_again": "SEND EMAIL AGAIN?",
+    "forgot password step 3": "-------------------------------------------------------------------",
+    "create_new_password":"Create new password",
+    "new_password": "New password",
+    "confirm_new_password": "Confirm new password",
+    "save": "Save",
+    "step_3_of_3":"Step 3 of 3",
+    "if_you_change":"If you change your password by mistake - return to the",
+    "main_page":"MAIN PAGE?",
+    "notification": "-----------------------------------------------------------------------------",
+    "Please enter a valid email address": "Please enter a valid email address",
+    "Incorrect code": "Incorrect code",
+    "Password must be 6 characters long and include letters and numbers": "Password must be 6 characters long and include letters and numbers",
+    "The re-entered password must match the password above": "The re-entered password must match the password above"
+  },
+  "dialog_change_password":{
+    "password_successfully_changed":"Password successfully changed",
+    "now_you_can": "Now you can",
+    "login_to": "Log in to your personal account"
+  },
+  "choose_zodiac": {
+    "choose_zodiac": "Choose Zodiac",
+    "Aries": "Aries",
+    "Taurus": "Taurus",
+    "Gemini": "Gemini",
+    "Cancer": "Cancer",
+    "Leo": "Leo",
+    "Virgo": "Virgo",
+    "Libra": "Libra",
+    "Scorpio": "Scorpio",
+    "Sagittarius": "Sagittarius",
+    "Capricorn": "Capricorn",
+    "Aquarius": "Aquarius",
+    "Pisces": "Pisces"
+  },
+  "personality": {
+    "positive_traits" : "Positive Traits",
+    "negative_traits" : "Negative Traits"
+  },
+  "compatible": {
+    "best" : "Best Compatibility",
+    "worst" : "Worst Compatibility"
+  },
+  "bottom_page": {
+    "other_thing_about" : "Other things about",
+    "worst" : "Worst Compatibility"
+  }
+
+}
