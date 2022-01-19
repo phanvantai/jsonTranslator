@@ -3,19 +3,14 @@ import 'dart:io';
 
 import 'package:http/http.dart' as http;
 import 'package:html_unescape/html_unescape.dart';
-import 'package:path_provider/path_provider.dart';
 
 class Translator {
   static Future<String> handleFile(
       File file, String apiKey, String outputFileName) async {
-    Future<Directory?>? _externalDocumentsDirectory;
-    Future<List<Directory>?>? _externalStorageDirectories;
     int count = 0;
-    _externalDocumentsDirectory = getExternalStorageDirectory();
-    print(_externalDocumentsDirectory);
-    _externalStorageDirectories =
-        getExternalStorageDirectories(type: StorageDirectory.downloads);
-    print(_externalStorageDirectories);
+    // path for android emulator
+    var newFile =
+        File('/storage/emulated/0/Download/' + outputFileName + '.json');
     return file.readAsLines().then((value) async {
       for (var element in value) {
         if (element.contains(':')) {
@@ -23,23 +18,21 @@ class Translator {
           if (abc.length > 1 && abc[1].contains('"')) {
             if (count == 10) {
               // delay to avoid request to much in a limited time
-              await Future.delayed(const Duration(milliseconds: 800));
+              await Future.delayed(const Duration(milliseconds: 500));
               count = 0;
             }
-            //var translated =
-            //    abc[1]; //await translate(apiKey, outputFileName, abc[1]);
+            var translated = await translate(apiKey, outputFileName, abc[1]);
             count += 1;
-            //var newElement = abc[0] + ':' + translated;
-
-            /// write new element to a line new file
+            var newElement = abc[0] + ':' + translated + '\n';
+            newFile.writeAsStringSync(newElement, mode: FileMode.append);
           } else {
-            /// write element to a line new file
+            newFile.writeAsStringSync(element + '\n', mode: FileMode.append);
           }
         } else {
-          /// write element to a line new file
+          newFile.writeAsStringSync(element + '\n', mode: FileMode.append);
         }
       }
-      return 'mnpq';
+      return newFile.path;
     }).catchError((error) {
       return error.toString();
     });
